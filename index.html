@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Creative Webpage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Step Into a World of Inspiration</h1>
+    <p>Where creativity meets simplicity and beauty in every pixel.</p>
+  </header>
+
+  <section class="content">
+    <div class="image-wrapper">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Beautiful Nature" />
+    </div>
+    <div class="text-area">
+      <h2>Embrace the Art of Design</h2>
+      <p>Dive into a curated collection of visuals and stories crafted to spark your imagination.</p>
+      <a href="https://unsplash.com" target="_blank" class="btn">Start Exploring</a>
+    </div>
+  </section>
+
+  <section class="interaction">
+    <button id="alertBtn" class="btn-primary">Click Me!</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Crafted with passion by Saranyaa</p>
+  </footer>
+
+  <script>
+    document.getElementById('alertBtn').addEventListener('click', () => {
+      alert('Thanks for clicking! Keep creating.');
+    });
+  </script>
+</body>
+</html>
